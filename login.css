@@ -1,0 +1,85 @@
+h2{
+    font-family: 'Nanum Myeongjo',sans-serif;
+    color: purple;
+    text-align: center;
+    text-shadow: #0000;
+}
+
+p{
+    font-family: 'Dancing Script',cursive;
+    text-align: center;
+
+}
+
+body{
+    background-image: url("home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login{
+    text-align: center;
+}
+
+input[type=email]{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=password]{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    width: 10%;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: blueviolet;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+@media screen and (max-width:414px){
+    input[type=password]{
+        width: 50%;
+    }
+    input[type=Email]{
+        width: 50%;
+    }
+    button{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    input[type=password]{
+        width: 60%;
+    }
+    input[type=Email]{
+        width: 60%;
+    }
+    button{
+        width: 30%;
+    }
+}
